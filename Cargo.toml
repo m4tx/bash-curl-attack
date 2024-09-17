@@ -1,0 +1,17 @@
+[package]
+name = "bash-curl-attack"
+version = "0.1.0"
+description = "Server-side detection of using bash | curl in the CLI."
+edition = "2021"
+repository = "https://github.com/m4tx/bash-curl-attack.git"
+homepage = "https://github.com/m4tx/bash-curl-attack"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+anyhow = "1.0.89"
+async-stream = "0.3.5"
+bytes = "1.7.1"
+chrono = "0.4.38"
+flareon = { git = "https://github.com/flareon-rs/flareon.git", rev = "8665071b97e9df1f6e55227303f0215dc6281c3a" }
+statrs = "0.17.1"
+tokio = { version = "1.40.0", features = ["macros", "rt-multi-thread"] }
