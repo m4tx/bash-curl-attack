@@ -1,4 +1,4 @@
-# bash-curl-attack
+# curl-bash-attack
 
 An implementation of an attack that detects a usage of `curl | bash` on the server side to serve a malicious script only to the users who run the command.
 
